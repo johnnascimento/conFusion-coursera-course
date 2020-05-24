@@ -1,4 +1,13 @@
-﻿.row-header {
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 50px;
+    z-index: 0;
+}
+
+.row-header {
     margin: 0 auto;
     padding: 0;
 }
@@ -28,3 +37,21 @@
     margin: 0;
     color: #0f0f0f;
 }
+
+/* Navigation */
+.bg-custom-color {
+    background-color: #6e49af;
+}
+
+.nav-link > span {
+    padding-right: 8px;
+}
+
+
+/* Imgs */
+
+.company-logo {
+    width: auto;
+    max-height: 40px;
+}
+

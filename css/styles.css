@@ -98,10 +98,12 @@ body {
 
 .carousel-control-next {
     background-image: linear-gradient(270deg, #252525, transparent);
+    z-index: 10;
 }
 
 .carousel-control-prev {
     background-image: linear-gradient(90deg, #252525, transparent);
+    z-index: 10;
 }
 
 /* Get the inputs from section within modal sort of hidden */
@@ -110,6 +112,24 @@ body {
     max-width: 0;
     height: 0;
     opacity: 0;
+}
+
+#carouselButton {
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: auto;
+
+    z-index: 99;
+}
+
+.carouselButton {
+    display: inline-block;
+    position: relative;
+
+    z-index: 99;
 }
 
 /* Change tables setcion's labels background */
